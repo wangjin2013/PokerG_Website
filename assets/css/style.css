@@ -1,0 +1,119 @@
+/* PokerG 网站共用样式（纯 CSS，无框架） */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+  color: #1a1a1a;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  padding-block: 24px 40px;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 24px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 32px 0 16px 0;
+  color: #2c3e50;
+}
+
+p {
+  margin: 0 0 16px 0;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.language-switch {
+  margin: 16px 0;
+  font-size: 14px;
+}
+
+.language-switch a {
+  color: #666;
+  margin-right: 16px;
+}
+
+.language-switch a:hover {
+  color: #2563eb;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.back-link:hover {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+ul {
+  margin: 16px 0;
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 32px 0;
+}
+
+footer {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e5e5;
+  font-size: 13px;
+  color: #666;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-block: 16px 24px;
+  }
+  .container {
+    padding: 0 16px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
